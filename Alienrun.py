@@ -442,6 +442,7 @@ while run:
                 pass
                 draw_text('You Win!!', font, blue, (screen_width // 2) - 140, screen_height // 2 + 10)
                 draw_text('Want to play again?', font, blue, (screen_width // 2) - 220, screen_height // 2 + 50)
+                #the restart button will let you play the game from level 1 if you completed all the level
                 if restart_btn.draw():
                     level = 1
                     map_data = []
