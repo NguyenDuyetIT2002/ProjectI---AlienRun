@@ -155,7 +155,7 @@ while run:
 		#load in level data
 		if path.exists(f'level{level}_data'):
 			pickle_in = open(f'level{level}_data', 'rb')
-			world_data = pickle.load(pickle_in)
+			map_data = pickle.load(pickle_in)
 
 
 	#show the grid and draw the level tiles
